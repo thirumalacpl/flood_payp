@@ -1189,8 +1189,8 @@ $( document ).on( "pagecreate", function() {
         <div class="ui-grid-solo" style="margin:15px">
      
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" >
- 
+<!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="" > -->
+ <form rel="external" target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
     <input type="hidden" name="cmd" value="_xclick">
     <input type="hidden" name="business" value="naren@advicesync-consulting.com">
     <strong>Donation / Contribution? </strong><br />
@@ -1218,7 +1218,7 @@ $( document ).on( "pagecreate", function() {
  
     <br /><br />
     <input type="submit" value="Pay with PayPal!" style="background-color:#161715">
- 
+
 </form>
 
      <!--  <P>Donate page</P> -->
